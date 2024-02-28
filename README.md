@@ -34,6 +34,7 @@ The analysis covers various aspects of city's school district, including distric
 3. **Chater** schools show far better performance than **district** schools.
 
 Also I conducted more complex analysis in my own bonus part and here is a bonus conclusion:
+
 **School type** has the most significant influence on performance. Moreover, due to this substantial factor, previous conclusions cannot be considered entirely correct. Additionally, schools are not evenly distributed among groups; for example, all **district** schools are large and have more than $585 per capita spending. Therefore, **small** and **medium** **charter** schools, with higher average performance, greatly influence on conclusions for *Scores by School Spending* and *Scores by School Size* sections.
 
 All those conclusions can be found inline in the notebook.
