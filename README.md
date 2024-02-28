@@ -1,10 +1,10 @@
 # PyCity Schools Analysis
 
-This Jupyter Notebook contains an analysis of PyCity Schools, including district-level and school-level summaries, performance comparisons, and additional insights.
+This Jupyter Notebook contains an analysis of city's school district, including district-level and school-level summaries, performance comparisons, and additional insights.
 
 ## Overview
 
-The analysis covers various aspects of PyCity Schools, including district and school summaries, performance metrics, and detailed breakdowns by grade, spending, size, and school type.
+The analysis covers various aspects of city's school district, including district and school summaries, performance metrics, and detailed breakdowns by grade, spending, size, and school type.
 
 ## Files
 
@@ -12,8 +12,8 @@ The analysis covers various aspects of PyCity Schools, including district and sc
 
 ## Data Sources
 
-- **schools_complete.csv**: CSV file containing information about schools.
-- **students_complete.csv**: CSV file containing information about students.
+- **Resources/schools_complete.csv**: CSV file containing information about schools.
+- **Resources/students_complete.csv**: CSV file containing information about students.
 
 ## Dependencies
 
@@ -29,9 +29,14 @@ The analysis covers various aspects of PyCity Schools, including district and sc
 
 ## Conclusions
 
-1. The analysis reveals trends and patterns in the performance of PyCity Schools.
-2. Consider the impact of various factors, such as school type, spending per student, and school size, on academic performance.
-3. Detailed breakdowns by grade and subject provide a comprehensive view of student performance.
+1. Schools with **smaller** spendings per student show better performance than schools with **higher** spendings per student.
+2. Schools of **small** and **medium** size show better performance than **large** schools.
+3. **Chater** schools show far better performance than **district** schools.
+
+Also I conducted more complex analysis in my own bonus part and here is a bonus conclusion:
+**School type** has the most significant influence on performance. Moreover, due to this substantial factor, previous conclusions cannot be considered entirely correct. Additionally, schools are not evenly distributed among groups; for example, all **district** schools are large and have more than $585 per capita spending. Therefore, **small** and **medium** **charter** schools, with higher average performance, greatly influence on conclusions for *Scores by School Spending* and *Scores by School Size* sections.
+
+All those conclusions can be found inline in the notebook.
 
 # Analysis Summary
 1. **Average Reading Score** and **% Passing Reading** are higher than corresponded performance metrics for math
