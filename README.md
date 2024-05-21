@@ -29,11 +29,21 @@ The analysis covers various aspects of city's school district, including distric
 
 ## Conclusions
 
+![conclusion_1](Images/conclusion_1.png)
+
 1. Schools with **smaller** spendings per student show better performance than schools with **higher** spendings per student.
+
+![conclusion_2](Images/conclusion_2.png)
+
 2. Schools of **small** and **medium** size show better performance than **large** schools.
+
+![conclusion_3](Images/conclusion_3.png)
+
 3. **Chater** schools show far better performance than **district** schools.
 
 Also I conducted more complex analysis in my own bonus part and here is a bonus conclusion:
+
+![bonus_conclusion](Images/bonus_conclusion.png)
 
 **School type** has the most significant influence on performance. Moreover, due to this substantial factor, previous conclusions cannot be considered entirely correct. Additionally, schools are not evenly distributed among groups; for example, all **district** schools are large and have more than $585 per capita spending. Therefore, **small** and **medium** **charter** schools, with higher average performance, greatly influence on conclusions for *Scores by School Spending* and *Scores by School Size* sections.
 
